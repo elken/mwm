@@ -13,10 +13,15 @@
   <ItemGroup>
     <ClInclude Include="src\main.h" />
     <ClInclude Include="src\mwm.h" />
+    <ClInclude Include="src\panel.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\mwm.cpp" />
+    <ClCompile Include="src\panel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\full.png" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5F68D7E0-D047-42F6-835D-6E0374CA4604}</ProjectGuid>
