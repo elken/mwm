@@ -6,12 +6,12 @@
 class wxImagePanel 
 	: public wxPanel
 {
-	wxBitmap image;
+	wxImage image;
+	int w, h;
 public:
 	wxImagePanel(wxFrame *parent, wxString file, wxBitmapType format);
 
 	void paintEvent(wxPaintEvent &evt);
-	void paintNow();
 
 	void render(wxDC &dc);
 

@@ -18,6 +18,7 @@ public:
 	void OnSaveAs(wxCommandEvent &event);
 	void OnExit(wxCommandEvent &event);
 	void OnAbout(wxCommandEvent &event);
+	void OnSize(wxSizeEvent &event);
 
 protected:
 	DECLARE_EVENT_TABLE()

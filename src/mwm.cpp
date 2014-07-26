@@ -86,3 +86,4 @@ void Mwm::OnAbout(wxCommandEvent &event)
 {
 	wxLogMessage(_T("TODO: Create an about window"));
 }
+
